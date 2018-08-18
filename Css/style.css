@@ -1,0 +1,265 @@
+/*
+*{
+	margin:0;
+	padding:0;
+}
+To reset all margins and paddings
+*/
+
+body {
+	background-color:#CB9C60;
+	color:#4B3E3E;
+/* Same as above */ 
+	font: normal 18px'Merriweather', serif;
+	line-height: 1.6em 
+	padding:0;
+	margin:0;
+	background-size:cover;
+}	
+
+
+}
+.container-1{
+	width:80%
+	margin: auto;
+	overflow:hidden;
+
+}
+
+ul {
+	margin:0;
+	padding:0;
+}
+
+
+header{
+	background:#000000;
+	color:#B69F5D;
+	padding-top: 10px;
+	min-height:70px;
+	border-bottom:#474746 3px solid;
+	border-left:#474746 3px solid;
+	border-right:#474746 3px solid;
+	border-top:#474746 3px solid;
+}
+
+header a {
+color:#ffffff;
+text-decoration:none;
+text-transform:uppercase;
+font-size:20px;
+}
+header ul{
+	margin:0;
+	padding:0;
+}
+
+header li{
+	float:left;
+	display:inline;
+	padding:0 20px 0 20px;
+	font-family:'Cardo', serif;
+
+}
+header #branding{
+	float:left;
+	padding:0 20 0 20px;
+
+}
+
+ul {
+	float:left;
+	display:inline;
+	padding:0px 20px 0 20px;
+}
+
+
+header #branding h1{
+	margin:0;
+}
+header a:hover{
+	color:#E5C41E;
+	font-weight:bold;
+	
+}
+header nav{
+	float:right;
+	margin-top:6px;
+}
+header .highlight, header .current a{
+	color:#D2D8DB;
+	font-weight:bold;
+}
+
+h1	{
+	margin:20px;
+	text-align:left;
+
+}
+
+h2 {
+	margin:10px 20px 10px 20px;
+	background-color:;
+	font-family: 'Merriweather', serif;
+}
+
+h3{ 
+	line-height: 1.4em;
+	margin:20px;
+	text-align:center;
+	color:white;
+}
+
+h4 {
+
+	font-size:25px;
+	color:white;
+
+}
+
+h2 span {
+	float:left;
+}
+
+h4 span {
+	display: block;
+    display:inline-block;
+    height: 120px;
+    width: 480px;
+
+	background-color:black;
+}
+
+h3 span {
+	float:left;
+	display: block;
+    display:inline-block;
+     height: 300px;
+    width: 500px;
+
+ line-height: 1.1em;
+    -moz-border-radius: 70px; /* or 50% */
+    border-radius: 70px; /* or 50% */
+
+    background-color: black;
+    color: #D2D8DB;
+    text-align:center;
+    font-size: 1em;
+    font-family:'Cardo', serif;
+
+}
+
+
+.box-1 h1{
+	font-family:Tahoma;
+	font-weight:100;
+	font-style:italic;
+	letter-spacing:0.1em;
+	word-spacing: 0.2em;
+	padding:5px;
+	text-align:center;
+	color:#182A6D;
+}
+
+.box-2{
+	font-family:aerial;
+	color:#F5E30D;
+}
+
+}
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+img {
+	 margin:10px 20px 10px 20px;
+  margin-top:20px;
+   padding:3px;
+   background-color:#D4A12C;
+   border-top:6px solid black;
+   border-right:6px solid black;
+   border-bottom:4px solid black;
+   border-left:4px solid black;
+
+
+}
+
+{
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    padding: 5px;
+}
+.row: {
+    content:"";
+    clear: both;
+    display:flex;
+}
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+.row-2 {
+	display:flex;
+	flex-wrap:;
+	padding:0 4px;
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    line-height: 200px;
+    height: 200px;
+}
+.content {
+    max-width: 700px;
+    margin: auto;
+}
+
+
+
+
+
+/* 		<p>
+			Hi, my name is Thomas Dodgen I am a real estate agent for Century 21 Judge Fite Company. I provide service to the Midlothian, Texas area.
+			I have been with Century 21 Judge Fite Company for 3 months now! If you are looking for a competent agent who desires to make your home buying experience a breeze then you've found just the guy!*/
+.wrapper {
+	display:grid;
+	grid-template-columns:50% 30%;
+	grid-gap:1em;
+	margin-top:20px;}
+
+
+
+
+
+span {
+    display: block;
+    display:inline-block;
+    height: 300px;
+    width: 600px;
+    line-height: 1.1em;
+    -moz-border-radius: 100px; /* or 50% */
+    border-radius: 100px; /* or 50% */
+
+    background-color: black;
+    color: #D2D8DB;
+    text-align: center;
+    font-size: 1em;
+    font-family:'Cardo', serif;
+}
+
+
+footer {
+	width:100%;
+	background-color:black;
+	padding: 60px 0px;
+}
